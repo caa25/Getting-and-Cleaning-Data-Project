@@ -1,9 +1,9 @@
-#**Getting and Cleaning Data Project**#**Getting and Cleaning Data Project**
-####**README.md**
-#####Developer: Craig Anderson
-#####Date: October 16, 2017
+**Getting and Cleaning Data Project**#**Getting and Cleaning Data Project**
+**README.md**
+Developer: Craig Anderson
+Date: October 16, 2017
 
-###**Introduction**
+**Introduction**
 
 This project is designed to develop and demonstrate techniques for getting and cleansing data as part of the John Hopkins University Getting and Cleaning Data course. The objective is to prepare a “tidy dataset” that could be used for further analysis. 
 
@@ -20,7 +20,7 @@ The project domain focuses on data obtained from wearable computing devices simi
 This project uses the data files to produce a single data set that extracts the mean and standard deviation of the observation variables for each measurement by activity and volunteer. A description of the measured activities and related variables ("features" in the original data files or, as used in this project, "measurements") can be found in the CodeBook.MD file.  The operative script (run_analysis.R) and a resulting sample “tidy data” file (TidyData.txt) are also found in this repo.  
 
 
-###**Project Software**
+**Project Software**
 
 This project was performed using the following software:
 
@@ -36,7 +36,7 @@ rio was selected as a good fit for this project because of how easily it imports
 
 More information on rio is available at https://www.rdocumentation.org/packages/rio/versions/0.5.5   
 
-###**Recommended Environment Setup and Execution Instructions**
+**Recommended Environment Setup and Execution Instructions**
 
 1. Preload R version 3.4.2 or higher.  
 2. RStudio is recommended, but not required.
@@ -47,7 +47,7 @@ More information on rio is available at https://www.rdocumentation.org/packages/
 
 The TidyData.txt file with then be accessible from the working directory.
 
-###**Project Data**
+**Project Data**
 
 Project datafiles were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -56,7 +56,7 @@ A more specific discussion of the data as produced for this project is found in 
 
 Full credit for the study design and data compliation goes to Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. The study was published in Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-###**Datafile Processing**
+**Datafile Processing**
 
 For purposes of the experimental design, the volunteers were divided into two groups: Testing and Training.  Data was collected and collated for both groups. This project requires that the data for both groups be merged into a single data set.
 
@@ -95,7 +95,7 @@ Files 5 through 13 and 17 through 25 contain the raw signal data for the test an
 
 Descriptive activity labels are revised as the combined dataset is prepared rather than at the end in preparing the final tidy dataset to facilitate analysis at each stage.  Variable (measurement) column names are revised in the final dataset only. 
 
-###**run_analysis.R Pseudo Code**
+**run_analysis.R Pseudo Code**
 
 run_analysis.R proceeds in the following steps:
 
