@@ -1,4 +1,4 @@
-**Getting and Cleaning Data Project**#**Getting and Cleaning Data Project**  
+**Getting and Cleaning Data Project**  
 **README.md**  
 Developer: Craig Anderson  
 Date: October 16, 2017  
